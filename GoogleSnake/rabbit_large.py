@@ -3,6 +3,8 @@ from pyautogui import press, typewrite, dragTo
 import time
 from ctypes import windll
 
+#I hope this works
+
 dc = windll.user32.GetDC(0)
 #610, 324 with step of 40 is top left corner of snake game regular size board
 #618, 326 with step of 66 small board
